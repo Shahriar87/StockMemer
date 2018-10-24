@@ -1,6 +1,7 @@
 // Firebase setup & Comment Section: 
 
 // Initialize Firebase
+/*
 var config = {
     apiKey: "AIzaSyCn2pxZTnTMzIA27cfSAaaAH9vjfSTyrGE",
     authDomain: "stock-memers.firebaseapp.com",
@@ -9,6 +10,17 @@ var config = {
     storageBucket: "stock-memers.appspot.com",
     messagingSenderId: "781450269578"
 };
+*/
+ 
+ var config = {
+    apiKey: "AIzaSyC7z4HQ5P3AztqZ6udEqN9CS6G0p_MlOew",
+    authDomain: "stock-memer-shah.firebaseapp.com",
+    databaseURL: "https://stock-memer-shah.firebaseio.com",
+    projectId: "stock-memer-shah",
+    storageBucket: "stock-memer-shah.appspot.com",
+    messagingSenderId: "926025391240"
+  };
+  
 firebase.initializeApp(config);
 
 var database = firebase.database();
