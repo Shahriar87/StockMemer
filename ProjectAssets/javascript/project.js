@@ -426,18 +426,7 @@ function percentCheck(percentChange) {
 
     var queryURL = apiUrl + "?bottom=" + bottomText + "&font=" + font + "&font_size=" + fontSize + "&meme=" + meme + "&top=" + topText;
 
-    $.ajax({
-        url: queryURL,
-        method: "GET",
-        headers: {
-            "X-Mashape-Key": "jCuQ07buCmmshB86bfe7bGRUwQOEp1TxvzWjsnsnNSN16soTiH",
-            "Accept": "text/plain"
-        },
-    }).then(function (response) {
-        // console.log(response);
-        $("#cMeme").html("<img src = 'http://apimeme.com/meme?meme=" + meme + "&top=" + topText + "&bottom=" + bottomText + "&test=1'>")
-
-    });
+    $("#cMeme").html("<img src = 'http://apimeme.com/meme?meme=" + meme + "&top=" + topText + "&bottom=" + bottomText + "&test=1'>");
 };
 
 
